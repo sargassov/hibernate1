@@ -51,5 +51,4 @@ public class ProductDaoRepository implements ProductDao {
             session.getTransaction().commit();
         }
     }
-
 }
