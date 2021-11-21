@@ -28,4 +28,8 @@ public class Main {
 
         utils.shutdown();
     }
+
+    //Я попросбовал вшить Hibernate в другой проект со Spring Web.
+    // Сначала задача показалась несложной, но при запуске
+    // везде повылезали UnsatisfiedDependencyException. В логах так написано про каждый бин.
 }
